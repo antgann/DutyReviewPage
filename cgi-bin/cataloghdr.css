@@ -1,0 +1,9 @@
+/* Define CSS for catalog header */
+div#noborder { 
+ display: inline-block;
+ margin: 0;
+ padding: 0;
+ border: 0;
+ background: yellow;
+} 
+#rlink { text-align:right; } 

@@ -1,0 +1,18 @@
+/* Define CSS for trigger catalog list */
+
+/* Link color behavior */
+body {color:blue;}
+a:link {color:blue;}
+a:visited {background:yellow; color:green;}
+a:hover {background:yellow; color:red;}
+a:active {background:orange; color:black;}
+a:focus {background:orange; color:black;}
+a:target {background:orange; color:black;}
+.left { text-align:left; width:50%; float:left; }
+.right { text-align:right; width:50%; float:right; }
+#clink {display:block; text-align:center}
+#rlink {display:block; text-align:right}
+#llink {display:block; text-align:left}
+h1 {
+    color: green;
+}

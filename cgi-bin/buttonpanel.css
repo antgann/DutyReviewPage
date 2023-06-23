@@ -1,0 +1,51 @@
+/* Define CSS for pseudo-buttons */
+.button4 {
+      margin: 1em 0;
+      width: 8em;
+      font-family: helvetica,arial,sans-serif;
+      font-size: 100%;
+      font-weight: bold;
+      text-align: center;
+}
+
+/* Redefines the look of the <A> tag */
+.button4 a {
+      display: block;
+      width: 100%;
+}
+
+.button4 a:link, .button4 a:visited, .button4 a:hover {
+      background-color: #469;  /* background = steel blue */
+      color: white;              /* text color */
+      text-decoration: none;
+}
+
+.button4 a:link, .button4 a:visited {
+      border-top: 1px solid #cecece;
+      border-bottom: 2px solid #4a4a4a;
+      border-left: 1px solid #cecece;
+      border-right: 2px solid #4a4a4a;
+}
+
+/* Makes button look depressed by changing border */
+.button4 a:hover {
+      border-bottom: 1px solid #cecece;
+      border-top: 2px solid #4a4a4a;
+      border-right: 1px solid #cecece;
+      border-left: 2px solid #4a4a4a;
+}
+
+.button4 span.front {
+      padding:  0 0.4em;          /* before & after text */
+      background-color: white;   /* white */
+      color: #0c479d;            /* text */
+}
+
+.left {
+    text-align: left;
+    width: 300px;
+}
+
+h1 {
+    color: green;
+}

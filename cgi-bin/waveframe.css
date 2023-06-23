@@ -1,0 +1,6 @@
+/* Define CSS for page in waveform frame*/
+.left { text-align: left; width: 50%; float: left; }
+.right { text-align: right; width: 50%; float: right; }
+hr { color:green; background-color:green; border-color:green; height:2px; }
+.hidden { display: none; }
+.unhidden { display: block; }
